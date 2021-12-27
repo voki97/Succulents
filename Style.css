@@ -1,0 +1,364 @@
+body{
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto', sans-serif;
+  background-color: #11936e;
+  
+}
+.shell{
+  margin: 0 auto;
+  width: 1320px;
+  height: 1920px;
+}
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    height: 1920px;
+    width: 1080px;
+    background-color: #668f83;
+}
+/*  in orded to have different backgrounds for every wrapper, same class but different id   */
+#home{
+  background-image: url(../Succulents/Backgrounds/bg1-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title{
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    color: #11936e;
+    margin: 0 auto;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+/* 
+
+BUTTON
+
+*/
+
+.dDownButtonContent{
+  position: fixed;
+  float: left;
+  width: 1080px;
+  margin-left: 0%;
+  z-index: 1;
+}
+.dDownButtonContentLeft{
+  margin-top: 800px;
+  margin-left: 1200px;
+  position: fixed;
+  float: right;
+  width: 1080px;
+  margin-right: 0%;
+  text-decoration: none;
+}
+.scrollButton{
+  border: 2px solid #11936e;
+  background-color: #c6ddeb;
+  color: #11936e;
+  width: 120px;
+  text-align: left;
+  height: 60px;
+  font-size: 16px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+.scrollButton:focus{
+  background-color: #f8c7e7;
+}
+.leftButton{
+  border: 2px solid #11936e;
+  background-color: #c6ddeb;
+  color: #11936e;
+  width: 120px;
+  text-align: right;
+  height: 50px;
+  font-size: 16px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+.leftButton:focus{
+  background-color: #f8c7e7;
+}
+/*FOOTER*/
+
+/*
+
+ABOUT PAGE (((((2nd page)))))
+
+*/
+#about{
+  background-image: url(../Succulents/Backgrounds/bg2-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.textContent p{
+  font-family: 'Catamaran', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+  background-image: url(../Succulents/Backgrounds/textbg.png);
+  background-position: center;
+  background-size: cover;
+}
+.startLetter{
+  font-family: 'Roboto', sans-serif;
+  color: #11936e;
+  font-size: 18px;
+}
+/* families */
+.fam{
+  display: inline-block;
+  margin-top: 200px;
+}
+.family{
+  width: 300px;
+  height: 370px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 45px;
+}
+.familyImage{
+  width: 300px;
+  height: 300px;
+  border-radius: 100px;
+  margin-top:20px;
+  opacity: 70%;
+  animation-name: photoAnimation;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.familyImage:hover{
+  opacity: 100%;
+}
+.familiesName{
+  font-family: 'Roboto', sans-serif;
+  color: #11936e;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+/*animation*/
+@keyframes photoAnimation{
+  from {width: 50%;height: 50%;opacity: 0%;}
+  to {width: 100%;height: 100%;opacity: 70%;}
+}
+/*
+MOST POPULAR PAGE (((((3rd page)))))
+*/
+#mostPopular{
+  background-image: url(../Succulents/Backgrounds/bg3-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  display: inline-block;
+  width: 500px;
+  height: 240px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+/* every picture have different size, so there is different classes!*/
+.sedum{
+  width: 175px;
+  height: 230px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border-radius: 100px;
+}
+.katy{
+  width: 226px;
+  height: 148px;
+  margin-top: 5px;
+  border-radius: 100px;
+}
+.opunata{
+  height: 227px;
+  width: 230px;
+  margin-top: 10px;
+  border-radius: 100px;
+}
+.zebra{
+  height: 251px;
+  width: 230px;
+  margin-top: 50px;
+  border-radius: 100px;
+}
+.twoThreeZero{
+  width: 230px;
+  height: 230px;
+  margin-top: 10px;
+  border-radius: 100px;
+}
+.container .text{
+  font-family: 'Catamaran', sans-serif;
+  float: right;
+  width: 260px;
+  height: 230px;
+  font-size: 15px;
+}
+.katyText{
+  width: 500px;
+  height: 60px;
+  font-size: 15px;
+  font-family: 'Catamaran', sans-serif;
+}
+.italic{
+  font-style: italic;
+}
+.plantTitle{
+  color: #11936e;
+  font-size: 18px;
+}
+/*
+CARE (((((4th page)))))
+*/
+#care{
+  background-image: url(../Succulents/Backgrounds/bg4-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pictureSide{
+  width: 450px;
+  margin-left: 45px;
+  float: left;
+}
+.carePicture{
+  width: 449px;
+  height: 299px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.textSide{
+  width: 450px;
+  float: right;
+  margin-right: 45px;
+  margin-top: 20px;
+}
+/*
+Fun Facts (((((5th page)))))
+
+*/
+#funFacts{
+  background-image: url(../Succulents/Backgrounds/bg5-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fun{
+  height: 240px;
+  margin-top: 120px;
+}
+.karoo{
+  width: 354px;
+  height: 229px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 35px;
+}
+.dragon{
+  width: 373px;
+  height: 202px;
+  float: right;
+  margin-right: 35px;
+  margin-left: 20px;
+}
+.blossfeldia{
+  width: 295px;
+  height: 229px;
+  float: left;
+  margin-left: 35px;
+  margin-right: 42px;
+}
+.pachycereus{
+  width: 254px;
+  height: 359px;
+  float: right;
+  margin-right: 35px;
+  margin-left: 42px;
+}
+.mexico{
+  width: 253px;
+  height: 229px;
+  float: left;
+  margin-left: 505px;
+  margin-top: 20px;
+}
+.funText p{
+  height: 460px;
+  width: 214px;
+  padding: 20px;
+  margin-right: 35px;
+  float: right;
+  font-family: 'Catamaran', sans-serif;
+  background-image: url(../Succulents/Backgrounds/textbg.png);
+}
+/*
+
+Azioaceae (additional html)
+
+*/
+#aizoaceae{
+  background-image: url(../Succulents/SucculentsPhoto/Azioaceae/aiz-01-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.photoContainer{
+  display: inline;
+}
+.firstRowPhotos{
+  margin: 30px 0 30px 30px;
+  width: 318px;
+  height: 254px;
+}
+.secondRowPhotos{
+  margin: 80px 0 80px 80px;
+  width: 250px;
+  height: 187px;
+}
+/*
+
+Cactaceae (additional html)
+
+*/
+#cactaceae{
+  background-image: url(../Succulents/SucculentsPhoto/Cactaceae/cac-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cactaceaePhotos{
+  height: 225px;
+  margin: 50px 10px 7px; 
+}
+/*
+
+Crassulaceae (additional html)
+
+*/
+#crassulaceae{
+  background-image: url(../Succulents/SucculentsPhoto/Crassulaceae/crass-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.crassulaceaePhotos{
+  margin: 25px 0 25px 25px;
+  height: 236px;
+  width: 236px;
+  border-radius: 30px;
+}
