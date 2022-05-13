@@ -1,6 +1,6 @@
 # Succulents
 
-About:
+##About:
 Static website for faculty project (Web Design). 
 
 Technologies:
