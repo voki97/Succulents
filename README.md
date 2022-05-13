@@ -1,2 +1,9 @@
 # Succulents
- This is my website univeristy project
+
+About:
+Static website for faculty project (Web Design). 
+
+Technologies:
+HTML, CSS, JavaScript
+
+Launch
