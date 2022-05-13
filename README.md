@@ -1,9 +1,10 @@
 # Succulents
 
-##About:
-Static website for faculty project (Web Design). 
+About:
+Static website for faculty project (Web Design).
+This project include sasic HTML, CSS and JavaScript code.
 
 Technologies:
 HTML, CSS, JavaScript
 
-Launch
+Copyrights for photos, videos, gif's,... , I do not own.
